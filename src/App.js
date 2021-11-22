@@ -1,11 +1,9 @@
 import "./App.css";
-
+import Container from "./components/Container";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a>Learn React</a>
-      </header>
+      <Container></Container>
     </div>
   );
 }

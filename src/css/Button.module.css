@@ -1,0 +1,27 @@
+.containerBtn {
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.btn {
+  width: 8vh;
+  height: 8vh;
+  background-color: #272b33;
+  color: #f8f8f8;
+  border-radius: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btnWhite {
+  color: #f8f8f8;
+}
+.btnGreen {
+  color: #26bfa3;
+}
+.btnRed {
+  color: #d25f5f;
+}
