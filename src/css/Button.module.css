@@ -7,13 +7,19 @@
   justify-content: center;
 }
 .btn {
+  border: none;
+  transition: box-shadow 0.1s ease-in-out;
   width: 8vh;
   height: 8vh;
   background-color: #272b33;
   color: #f8f8f8;
   border-radius: 10px;
-  padding: 0;
   cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:active {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .btnWhite {
