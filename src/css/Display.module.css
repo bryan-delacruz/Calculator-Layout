@@ -1,0 +1,25 @@
+.display {
+  width: 45vh;
+  height: 34vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+  align-content: flex-end;
+  color: #ffff;
+}
+.operation {
+  width: 45vh;
+  height: 8vh;
+  padding-right: 4vh;
+  font-size: 4vh;
+  color: #b9babc;
+}
+.operador {
+  color: #d25f5f;
+}
+.result {
+  width: 45vh;
+  height: 12vh;
+  padding-right: 4vh;
+  font-size: 8vh;
+}

@@ -28,7 +28,7 @@ const Board = () => {
   return (
     <div className={styles.board}>
       {datos.map((e, i) => (
-        <Button key={e.i} color={e.color} dato={e.dato} />
+        <Button key={i} color={e.color} dato={e.dato} />
       ))}
     </div>
   );
